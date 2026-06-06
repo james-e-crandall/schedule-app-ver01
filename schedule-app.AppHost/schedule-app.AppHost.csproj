@@ -1,0 +1,22 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.4.2">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>c594a1fb-0f03-46a1-9fba-5cfe38e60511</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.SqlServer" Version="13.4.2" />
+    <PackageReference Include="CommunityToolkit.Aspire.Hosting.SqlServer.Extensions" Version="13.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ScheduleLib.MigrationService\ScheduleLib.MigrationService.csproj" />
+  </ItemGroup>
+
+
+
+</Project>

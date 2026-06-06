@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="schedule-app.AppHost/schedule-app.AppHost.csproj" />
+  <Project Path="schedule-app.ServiceDefaults/schedule-app.ServiceDefaults.csproj" />
+  <Project Path="ScheduleLib.MigrationService/ScheduleLib.MigrationService.csproj" />
+  <Project Path="ScheduleLib/ScheduleLib.csproj" />
+</Solution>
