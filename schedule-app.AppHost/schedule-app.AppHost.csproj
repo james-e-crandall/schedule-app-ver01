@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ScheduleLib.MigrationService\ScheduleLib.MigrationService.csproj" />
+    <ProjectReference Include="..\ScheduleLib.ScheduleRunnerService\ScheduleLib.ScheduleRunnerService.csproj" />
   </ItemGroup>
 
 

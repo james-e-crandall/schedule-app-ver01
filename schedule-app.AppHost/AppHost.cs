@@ -9,4 +9,9 @@ var ScheduleLibMigrationService = builder.AddProject<Projects.ScheduleLib_Migrat
 .WithReference(db)
 .WaitFor(db);
 
+var ScheduleLibScheduleRunnerService = builder.AddProject<Projects.ScheduleLib_ScheduleRunnerService>("ScheduleLibScheduleRunnerService")
+.WithReference(db)
+.WaitFor(db)
+.WaitForCompletion(ScheduleLibMigrationService);
+
 builder.Build().Run();
